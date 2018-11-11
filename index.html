@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <h1> Welcome to my Page!!!</h1>
+    <section id="home" >
+        <div class="intro"> 
+            <h1>Laura Lamb</h1>
+            <h2>Future Full-Stack Developer <br> And<br> Ui/Ux Enthusiast.</h2>
+            <button>Check out my work</button>
+        </div>
+    </section>
+    <nav> 
+        <div class="nav-wrapper">
+            <div class="link"><a href="#home">home</a></div>
+            <div class="link"><a href="#about">about</a></div>
+            <div class="link"><a href="#portfolio">portfolio</a></div>
+            <div class="link"><a href="#contact">contact</a></div>
+        </div>
+    </nav>
+    <section id="about" >
+        <h2 class="who"> who am i? </h2>    
+            <div class="wrapper">
+                <div class="left">
+                    <img src="https://picsum.photos/300/300" alt="Image of Laura">
+                </div> 
+                <div class="right">
+                    <div class="title">
+                        <h2>about</h2>
+                    </div>
+                    <h3>future full-stack developer and ui/ux enthusiast.</h3>
+                    <p>Located in Austin, TX and currently enrolled in Austin Coding Academy.</p>
+                    <div class="skills"><p>Skills :</p>
+                        <ul class="badges">
+                            <li class="badge">html</li>
+                            <li class="badge"> css</li>
+                            <li class="badge"> coming<br>soon!</li>
+                            <li class="badge"> coming<br>soon!</li>
+                        </ul>
+                        <p> let's work together!</p>
+                    </div>    
+                </div> 
+            </div>
+    </section>    
+        
+
+    <section id="portfolio" >
+        <h2 class="projects"> portfolio </h2>  
+            <h3 class="proj">my projects</h3>
+            <div class="container">
+                <div class="work">a</div>
+                <div class="work">b</div>
+                <div class="work">c</div>
+                <div class="work">d</div>
+                <div class="work">e</div>
+                <div class="work">f</div>
+                <div class="work">g</div>
+                <div class="work">h</div>
+                <div class="work">i</div>
+            </div>
+    </section>
+
+    <section id="contact" >
+            <h2 class="contact"> contact </h2>  
+        <div class="contactbox">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Enter email" required>
+            <textarea id="textarea" rows="10" cols="50" placeholder="Your Message"></textarea>
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </section>
+    <footer>
+        <div class="foot-container">
+            <a href="https://github.com/Lauralamb" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/laura-lamb-b9617a168/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+            <p> Laura Lamb 2018</p>
+        
+
+    </footer>
 </body>
 </html>
