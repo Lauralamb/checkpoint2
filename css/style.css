@@ -9,13 +9,14 @@ body {
 }
 /*home*/
 #home {
-    min-height: calc(100vh - 61px);
+    height:100vh;
     width: 100%;
     background-color: #F4F0E9;
     color: #484847;
+
 }
 .intro {
-    padding: 200px;
+    padding: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,9 +28,10 @@ body {
 }
 .intro > h1 {
     font-size: 60px;
+    font-weight: bold;
 }
 .intro > h2 {
-    font-size: 45px;
+    font-size: 40px;
 }
 .work1 {
     background-color: #484847ad;
@@ -40,6 +42,7 @@ body {
     padding:10px;
     border-radius: 5px;
     font-weight: bold;
+    width: 200px;
     
 }
 .work1:hover {
@@ -208,6 +211,11 @@ a:hover {
     text-align: center;
     font-weight: bold;
 }
+.fa-html5, .fa-css3-alt {
+    font-size: 30px;
+    padding-top: 13px;
+    color:black;
+}
 .wt {
     padding-top: 25px;
     text-transform: capitalize;
@@ -233,17 +241,18 @@ a:hover {
     padding-left: 30px;
 }
 .container {
-    padding: 20px;
+    padding: 50px;
     height: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-auto-rows: minmax(200px, auto);
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 .work {
     border: 2px solid #F4F0E9;
     border-radius: 10px;
-    min-height: 250px;
+    min-height: 300px;
     max-height: 300px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
@@ -331,8 +340,8 @@ a:hover {
     padding-top: 100px;
 }
 input, textarea {
-    background:#4848474d;
-    border: 2px solid #484847;
+    background:#4848479d;
+    border: 2px solid #757573;
 }
 .contact {
     width: 200px;
@@ -366,16 +375,17 @@ footer {
     justify-content:center;
 } 
 .foot-container {
+    
     display:flex;
     width: 300px;
     justify-items: center;
     justify-content: space-between;
     font-size: 20px;
 }
-.fab  {
+.fa-github,.fa-linkedin-in {
     color: #C86F69;
 }
-.fab:hover  {
+.fa-github:hover,.fa-linkedin-in:hover  {
     color:#484847;
 }
 /*tablet*/
