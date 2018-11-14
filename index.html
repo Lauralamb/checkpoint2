@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Laura Lamb</title>
 </head>
 <body>
     <section id="home" >
         <div class="intro"> 
             <h1>Laura Lamb</h1>
             <h2>Future Full-Stack Developer <br> And<br> Ui/Ux Enthusiast.</h2>
-            <button>Check out my work</button>
+            <button class="work1">Check out my work</button>
         </div>
     </section>
     <nav> 
@@ -25,45 +25,87 @@
             <div class="link"><a href="#contact">contact</a></div>
         </div>
     </nav>
-    <section id="about" >
+    <div class="fix" id="about"></div>
+    <section class="about" >
         <h2 class="who"> who am i? </h2>    
             <div class="wrapper">
                 <div class="left">
-                    <img src="https://picsum.photos/300/300" alt="Image of Laura">
+                    <img src="./img/me.jpg" id="linked" alt="Image from Linkedin of Me">
+                    <img src="./img/pic.JPG" id="aboutpic" alt="I'm an ad!">
                 </div> 
                 <div class="right">
                     <div class="title">
-                        <h2>about</h2>
+                        <h2 class="ttext" >About</h2>
                     </div>
-                    <h3>future full-stack developer and ui/ux enthusiast.</h3>
-                    <p>Located in Austin, TX and currently enrolled in Austin Coding Academy.</p>
-                    <div class="skills"><p>Skills :</p>
+                    <div class="info">
+                    <h3>Future Full-Stack Developer <br>and<br> UI/UX Enthusiast.</h3>
+                    <p>Located in Austin, TX and currently enrolled in Austin Coding Academy.<br> My current day job is a Head Teller at Austin Telco Federal Credit Union.</p>
+                    </div>
+                    <div class="title">
+                            <h2 class="ttext">Skills</h2>
+                    </div>
                         <ul class="badges">
-                            <li class="badge">html</li>
-                            <li class="badge"> css</li>
-                            <li class="badge"> coming<br>soon!</li>
-                            <li class="badge"> coming<br>soon!</li>
+                            <li class="diamond"><div class="text">html</div></li>
+                            <li class="diamond"><div class="text"> css</div></li>
+                            <li class="diamond"><div class="text"> coming<br>soon!</div></li>
+                            <li class="diamond"><div class="text"> coming<br>soon!</div></li>
+                            <li class="diamond"><div class="text"> coming<br>soon!</div></li>
+                            <li class="diamond"><div class="text"> coming<br>soon!</div></li>
                         </ul>
-                        <p> let's work together!</p>
-                    </div>    
+                        <p class="wt"> let's work together!</p> 
                 </div> 
             </div>
     </section>    
         
-
-    <section id="portfolio" >
+    <div class="fixp" id="portfolio"></div>
+    <section class="portfolio" >
         <h2 class="projects"> portfolio </h2>  
-            <h3 class="proj">my projects</h3>
             <div class="container">
-                <div class="work">a</div>
-                <div class="work">b</div>
-                <div class="work">c</div>
-                <div class="work">d</div>
-                <div class="work">e</div>
-                <div class="work">f</div>
-                <div class="work">g</div>
-                <div class="work">h</div>
-                <div class="work">i</div>
+                <a href="https://lauralamb.github.io/web-workbook/01week/resume/index.html">
+                    <div class="work a">                    
+                        <div class="banner">My Resume</div>                    
+                    </div>
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/02week/bio/index.html">
+                    <div class="work b">                    
+                    <div class="banner">My Bio</div>
+                    </div>
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/03week/airplane/index.html">
+                    <div class="work c">
+                        <div class="banner">Airplane Project</div>
+                    </div>
+                </a>                
+                <a href="https://lauralamb.github.io/web-workbook/04week/welcome-to-our-site/">
+                    <div class="work d">                    
+                        <div class="banner">Welcome to Our Site</div>
+                        </div>          
+                    </a>
+                <a href="https://lauralamb.github.io/web-workbook/04week/tomorrows-technology/">
+                    <div class="work e">                    
+                        <div class="banner">Tomorrow's Technology</div>
+                    </div>
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/04week/nasa/">
+                    <div class="work f">
+                        <div class="banner">NASA Project</div>
+                    </div>
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/05week/travel-gram/">
+                    <div class="work g">
+                        <div class="banner">Types of Pies</div>
+                    </div>
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/05week/transitions-and-transformations/index.html">
+                    <div class="work h">
+                        <div class="banner">Square Project</div>
+                    </div>  
+                </a>
+                <a href="https://lauralamb.github.io/web-workbook/06week/rps/index.html">
+                <div class="work i">
+                    <div class="banner">Rock, Paper, Scissors</div>
+                </div>
+                </a>
             </div>
     </section>
 
@@ -79,9 +121,9 @@
     <footer>
         <div class="foot-container">
             <a href="https://github.com/Lauralamb" target="_blank"><i class="fab fa-github"></i></a>
+            <p> Laura Lamb 2018</p>
             <a href="https://www.linkedin.com/in/laura-lamb-b9617a168/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
-            <p> Laura Lamb 2018</p>
         
 
     </footer>
